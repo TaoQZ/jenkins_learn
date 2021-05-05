@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String demo(){
-        return "最后一次!";
+        return "真的是最后!";
     }
 }
