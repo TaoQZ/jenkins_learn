@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String demo(){
-        return "真的是最后!1!";
+        return "hello jenkins!!!";
     }
 }
